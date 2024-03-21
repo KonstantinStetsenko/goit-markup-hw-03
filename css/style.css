@@ -31,18 +31,21 @@ body {
   /* width: 1158px; */
   margin-right: auto;
   margin-left: auto;
-  max-width: 1158px;
+  width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* Хедер */
 
 .style-header {
+  max-width: 1440px;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
+  margin-left: auto;
+  margin-right: auto;
 }
 .container-header {
   display: flex;
-  border-bottom: 1px solid #e7e9fc;
 }
 /* Оформление логотипа */
 .logoweb {
@@ -68,7 +71,7 @@ body {
 .menu-header {
   display: flex;
   list-style-type: none;
-  margin: 24px 0px 24px 0px;
+  margin: 24px 0px 24px;
   gap: 40px;
   padding: 0;
 }
@@ -101,7 +104,9 @@ body {
   font-style: normal;
   margin-left: auto;
   padding: 0;
-  margin: 24px 15px 24px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  /* margin: 24px 15px 24px auto; */
   /* margin: 24px 0px 24px 324px; */
 }
 .contact-list {
@@ -109,13 +114,16 @@ body {
   list-style-type: none;
   gap: 40px;
   padding: 0;
-  /* margin: 24px 15px 24px;
-  margin-left: auto; */
+  /* margin-left: auto; */
+  margin-right: 15px;
+  /* margin: 24px 15px 24px 100px; */
+  /* margin-left: 120px; */
 }
 .adress-mt {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-left: auto;
 }
 .adress-mt:hover {
   color: #404bbf;
@@ -193,8 +201,18 @@ body {
   border: 0;
 }
 /* Секция 2 о нас*/
-.section-header-obout {
-  display: none;
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  border: 0;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
 }
 .obout-us-list {
   display: flex;
@@ -224,6 +242,9 @@ body {
   color: #434455;
 }
 /* Секция 3 Наша команда*/
+.image-our-tem {
+  display: block;
+}
 .section-our-team {
   width: 1440px;
   background-color: #f4f4fd;
