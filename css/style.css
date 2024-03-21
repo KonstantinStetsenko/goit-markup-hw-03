@@ -7,28 +7,44 @@ h6,
 ul,
 p {
   margin: 0;
+  list-style-type: none;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
 body {
+  align-items: center;
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  display: block;
+  /* width: 1158px; */
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* Хедер */
+
+.style-header {
+  align-items: center;
 }
 .container-header {
   display: flex;
+  border-bottom: 1px solid #e7e9fc;
 }
-.menu-header {
-  display: flex;
-}
-.nav-section {
-  display: flex;
-}
-.contact-list {
-  display: flex;
-}
-.contact_adress {
-  font-style: normal;
-}
-/* Хедер */
+/* Оформление логотипа */
 .logoweb {
   color: #2e2f42;
   font-weight: 700;
@@ -46,20 +62,20 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 24px 76px 24px 0px;
 }
-
-.adress-mt {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+/* оформление элементов меню */
+.menu-header {
+  display: flex;
+  list-style-type: none;
+  margin: 24px 0px 24px 0px;
+  gap: 40px;
+  padding: 0;
 }
-.adress-mt:hover {
-  color: #404bbf;
+.nav-section {
+  display: flex;
+  margin-right: auto;
 }
-.adress-mt:focus {
-  color: #404bbf;
-}
-
 .menu-li {
   font-weight: 500;
   font-size: 16px;
@@ -78,11 +94,55 @@ body {
 .menu-li:focus {
   color: #404bbf;
 }
+/* оформление списка контактов */
+.contact-adress {
+  display: flex;
+  text-decoration: none;
+  font-style: normal;
+  margin-left: auto;
+  padding: 0;
+  margin: 24px 15px 24px;
+  /* margin: 24px 0px 24px 324px; */
+}
+.contact-list {
+  display: flex;
+  list-style-type: none;
+  gap: 40px;
+  padding: 0;
+  /* margin: 24px 15px 24px;
+  margin-left: auto; */
+}
+.adress-mt {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.adress-mt:hover {
+  color: #404bbf;
+}
+.adress-mt:focus {
+  color: #404bbf;
+}
 
 /* Секция 1 */
-.sec-hed {
-  text-align: center;
+.head-section {
   background-color: #2e2f42;
+  align-items: center;
+}
+.sec-hed-content {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.section {
+  /* background-color: #2e2f42; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .title-sec {
   letter-spacing: 0.02em;
@@ -91,6 +151,10 @@ body {
   font-size: 56px;
   font-weight: 700;
   color: white;
+  padding-top: 188px;
+  width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-sec {
   font-family: "Roboto", sans-serif;
@@ -102,24 +166,17 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-top: 48px;
-  margin-bottom: 0;
+  margin-bottom: 188px;
   background-color: #4d5ae5;
   border: 0;
   cursor: pointer;
+  padding: 16px 32px 16px 32px;
+  border-radius: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .button-sec:hover {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  font-size: 16px;
-  line-height: 150%;
-  color: white;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 48px;
-  margin-bottom: 0;
   background-color: #404bbf;
-  border: 0;
 }
 .button-sec:focus {
   font-family: "Roboto", sans-serif;
@@ -135,7 +192,23 @@ body {
   background-color: #404bbf;
   border: 0;
 }
-
+/* Секция 2 о нас*/
+.section-header-obout {
+  display: none;
+}
+.obout-us-list {
+  display: flex;
+  list-style-type: none;
+  gap: 24px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-obout {
+  width: 1440px;
+}
+.section-list-obout {
+  width: calc((100% - 24px) / 4);
+}
 .obout-us {
   font-weight: 500;
   font-size: 20px;
@@ -150,18 +223,27 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
-.our-team {
+/* Секция 3 Наша команда*/
+.section-our-team {
+  width: 1440px;
   background-color: #f4f4fd;
 }
-.section-header {
+
+.our-team {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
-  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.section-header-our-team-list {
+  display: flex;
+  gap: 24px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .command-list {
@@ -173,7 +255,12 @@ body {
   text-align: center;
   color: #2e2f42;
 }
-
+.command-name {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .command-list-p {
   font-weight: 400;
   font-size: 16px;
@@ -185,7 +272,18 @@ body {
 .command-li {
   background-color: #ffffff;
 }
+
+/* Секция 4 */
 .our-portfolio {
+  width: 1440px;
+}
+
+.container-portfolio {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.our-portfolio-header {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
@@ -193,6 +291,26 @@ body {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  padding-bottom: 72px;
+}
+.container-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+}
+.image-items {
+  display: block;
+}
+.portfolio-item {
+  width: calc((100% - 48px) / 3);
+  border-bottom: 1px solid #e7e9fc;
+  border-left: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
+  margin: 0;
+  padding: 0;
 }
 .our-portfolio-h {
   font-weight: 500;
@@ -200,6 +318,8 @@ body {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-top: 32px;
+  margin-left: 16px;
 }
 .our-portfolio-p {
   font-weight: 400;
@@ -207,10 +327,17 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-top: 8px;
+  margin-left: 16px;
 }
-
-.footer-teem {
+/* Футер */
+.footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.container-footer {
+  padding-left: 156px;
 }
 .footer-p {
   font-weight: 400;
@@ -218,6 +345,7 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
 .logoweb-footer {
   font-family: "Raleway", sans-serif;
@@ -227,4 +355,18 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+  margin: 0px;
 }
+
+.logo-futer {
+  color: #4d5ae5;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* 1)нстроить отступы текста в футере 
+2) настроить отступ от футера до 4-й секции*/
