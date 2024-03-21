@@ -65,19 +65,20 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin: 24px 76px 24px 0px;
+  /* margin: 24px 76px 24px 0px; */
+  margin-right: 76px;
 }
 /* оформление элементов меню */
 .menu-header {
   display: flex;
   list-style-type: none;
-  margin: 24px 0px 24px;
+  margin right: 40px;
   gap: 40px;
   padding: 0;
 }
 .nav-section {
   display: flex;
-  margin-right: auto;
+  align-items: center;
 }
 .menu-li {
   font-weight: 500;
@@ -85,6 +86,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0 24px
 }
 
 .menu-li:hover {
