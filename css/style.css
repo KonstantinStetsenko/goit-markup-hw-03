@@ -214,8 +214,11 @@ display: block;
   border: 0;
 }
 /* Секция 2 о нас*/
-.title-section-obout{
+/* .title-section-obout{
 margin-bottom: 8px; 
+} */
+.obout-us{
+  margin-bottom: 8px; 
 }
 
 .visually-hidden {
