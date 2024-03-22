@@ -430,6 +430,7 @@ margin-bottom: 8px;
 }
 
 .logo-futer {
+  display: inline-block;
   color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
@@ -437,7 +438,6 @@ margin-bottom: 8px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
