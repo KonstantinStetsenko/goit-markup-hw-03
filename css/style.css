@@ -248,7 +248,7 @@ margin-bottom: 8px;
   width: 1440px;
 }
 .section-list-obout {
-  width: Calc((100% - 3 * 24px) / 4);
+  /* width: Calc((100%-3 * 14px) / 4); */
 }
 .obout-us {
   font-weight: 500;
@@ -266,12 +266,12 @@ margin-bottom: 8px;
 }
 /* Секция 3 Наша команда*/
 .container-head {
-  padding-top: 32px;
-  padding-bottom: 32px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
 }
 .command-list-item {
+  width: calc((100% - 3 * 24px) / 4);
   display: block;
-  width: calc((100% - 72px) / 4);
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
   padding-left: 0;
