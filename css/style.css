@@ -271,6 +271,7 @@ margin-bottom: 8px;
 }
 .command-list-item{
   border-radius: 0px 0px 4px 4px;
+  background-color: #f4f4fd;
 }
 .image-our-tem {
   display: block;
