@@ -249,6 +249,7 @@ margin-bottom: 8px;
 }
 .section-list-obout {
   width: Calc((100%-3 * 14px) / 4);
+  gap: 24px;
 }
 .obout-us {
   font-weight: 500;
@@ -281,9 +282,7 @@ margin-bottom: 8px;
 .image-our-tem {
   display: block;
 }
-.section-list-obout {
-  width: calc((100% - 3 * 24px) / 4);
-}
+
 .section-our-team {
   width: 1440px;
   background-color: #f4f4fd;
