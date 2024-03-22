@@ -272,7 +272,7 @@ margin-bottom: 8px;
 }
 .command-list-item{
   width: calc((100% - 3 * 24px) / 4)
- border-bottom-left-radius:4px;
+
   background-color: #f4f4fd;
   
 }
@@ -316,7 +316,8 @@ margin-bottom: 8px;
   margin-bottom: 32px; */
   margin-left: auto;
   margin-right: auto;
-  padding: 32px 0 32px
+  padding: 32px 0 32px;
+  border-radius: 0px 0px 4px 4px;
 }
 .command-list-p {
   font-weight: 400;
