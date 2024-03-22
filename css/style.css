@@ -276,6 +276,7 @@ margin-bottom: 8px;
   border-radius: 0px 0px 4px 4px;
   padding-left: 0;
   margin: 0;
+  gap: 24px;
 }
 .image-our-tem {
   display: block;
