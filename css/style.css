@@ -248,7 +248,7 @@ margin-bottom: 8px;
   width: 1440px;
 }
 .section-list-obout {
-  width: Calc((100% - 3*24px) / 4);;
+  width: Calc((100% - 3*24px) / 4);
   
 }
 .obout-us {
