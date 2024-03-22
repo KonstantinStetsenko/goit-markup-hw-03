@@ -230,7 +230,7 @@ display: block;
 .obout-us-list {
   
   display: flex;
-  width: calc((100% - 72px) / 4;
+  
   list-style-type: none;
   gap: 24px;
   margin-left: auto;
