@@ -27,7 +27,7 @@ body {
   margin-right: auto;
 }
 .container {
-  display: block;
+  display: flex;
   /* width: 1158px; */
   margin-right: auto;
   margin-left: auto;
