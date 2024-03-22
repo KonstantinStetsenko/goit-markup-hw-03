@@ -233,7 +233,7 @@ margin-bottom: 8px;
   clip: rect(0 0 0 0);
 }
 .obout-us-list {
-  /* width: calc((100% - 72px) / 4); */
+  width: calc((100% - 72px) / 4);
   display: flex;
 
   list-style-type: none;
