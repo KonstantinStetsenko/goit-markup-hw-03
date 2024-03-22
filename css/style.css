@@ -27,7 +27,7 @@ body {
   margin-right: auto;
 }
 .container {
-  display: flex;
+  /* display: flex; */
   /* width: 1158px; */
   margin-right: auto;
   margin-left: auto;
@@ -36,7 +36,9 @@ body {
   padding-right: 15px;
 }
 /* Хедер */
-
+.container-header {
+  display: flex;
+}
 .style-header {
   max-width: 1440px;
   align-items: center;
