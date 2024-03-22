@@ -437,6 +437,8 @@ margin-bottom: 8px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 /* 1)нстроить отступы текста в футере 
