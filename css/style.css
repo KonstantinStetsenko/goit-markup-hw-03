@@ -273,7 +273,7 @@ margin-bottom: 8px;
 .command-list-item{
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  
+  border-radius: 0px 0px 4px 4px;;
 }
 .image-our-tem {
   display: block;
@@ -281,6 +281,7 @@ margin-bottom: 8px;
 .section-our-team {
   width: 1440px;
   background-color: #f4f4fd;
+  /* border-radius: 0px 0px 4px 4px; */
 }
 
 .our-team {
@@ -316,7 +317,7 @@ margin-bottom: 8px;
   margin-left: auto;
   margin-right: auto;
   padding: 32px 0 32px;
-  border-radius: 0px 0px 4px 4px;;
+  border-radius: 0px 0px 4px 4px;
   
 }
 .command-list-p {
