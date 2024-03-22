@@ -157,6 +157,7 @@ body {
   padding-bottom: 120px;
 }
 .title-sec {
+  display: block;
   letter-spacing: 0.02em;
   line-height: 1.07;
   text-align: center;
