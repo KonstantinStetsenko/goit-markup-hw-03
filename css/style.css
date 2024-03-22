@@ -241,6 +241,7 @@ display: block;
 }
 .section-list-obout {
   width: calc((100% - 24px) / 4);
+  gap: 24px;
 }
 .obout-us {
   font-weight: 500;
