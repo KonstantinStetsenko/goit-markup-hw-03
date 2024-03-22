@@ -214,6 +214,9 @@ display: block;
   border: 0;
 }
 /* Секция 2 о нас*/
+.title-section-obout{
+margin-bottom: 8px; 
+}
 
 .visually-hidden {
   position: absolute;
