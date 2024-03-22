@@ -226,6 +226,7 @@ display: block;
   border: 0;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  margin-bottom: 8px;
 }
 .obout-us-list {
   
@@ -240,7 +241,7 @@ display: block;
   width: 1440px;
 }
 .section-list-obout {
-  width: calc((100% - 72px) / 4;
+  width: calc((100% - 72px)/4;
 }
 .obout-us {
   font-weight: 500;
