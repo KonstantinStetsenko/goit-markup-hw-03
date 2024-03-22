@@ -135,6 +135,9 @@ body {
 }
 
 /* Секция 1 */
+.container-head{
+display: block;
+}
 .head-section {
   padding-top: 188px;
   padding-bottom: 188px;
