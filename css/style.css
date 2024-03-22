@@ -137,6 +137,7 @@ body {
 /* Секция 1 */
 .container-head{
 display: block;
+padding: 32px 0 32px
 }
 .head-section {
   padding-top: 188px;
@@ -276,6 +277,7 @@ margin-bottom: 8px;
   text-transform: capitalize;
   text-align: center;
   /* margin-bottom: 72px; */
+  margin-bottom: 8px;
 }
 .section-header-our-team-list {
   display: flex;
