@@ -294,6 +294,7 @@ margin-bottom: 8px;
   text-align: center;
   color: #2e2f42;
   width: calc((100% - 3 * 24px) / 4)
+  border-radius: 0px 0px 4px 4px;
 }
 .command-name {
   margin-top: 32px;
