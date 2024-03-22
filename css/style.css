@@ -275,7 +275,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
-  margin-bottom: 72px;
+  /* margin-bottom: 72px; */
 }
 .section-header-our-team-list {
   display: flex;
@@ -293,6 +293,7 @@ margin-bottom: 8px;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  width: calc((100% - 3 * 24px) / 4)
 }
 .command-name {
   margin-top: 32px;
