@@ -72,7 +72,7 @@ body {
 .menu-header {
   display: flex;
   list-style-type: none;
-  margin right: 40px;
+  /* margin right: 40px; */
   gap: 40px;
   padding: 0;
 }
@@ -86,7 +86,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0 24px
+  padding: 24px 0 24px;
 }
 
 .menu-li:hover {
@@ -135,8 +135,8 @@ body {
 }
 
 /* Секция 1 */
-.container-head{
-display: block;
+.container-head {
+  display: block;
 }
 .head-section {
   padding-top: 188px;
@@ -194,7 +194,6 @@ display: block;
   border-radius: 4px;
   margin-left: auto;
   margin-right: auto;
-
 }
 .button-sec:hover {
   background-color: #404bbf;
@@ -217,8 +216,8 @@ display: block;
 /* .title-section-obout{
 margin-bottom: 8px; 
 } */
-.obout-us{
-  margin-bottom: 8px; 
+.obout-us {
+  margin-bottom: 8px;
 }
 
 .visually-hidden {
@@ -236,20 +235,20 @@ margin-bottom: 8px;
 .obout-us-list {
   /* width: calc((100% - 72px) / 4); */
   display: flex;
-  
+
   list-style-type: none;
   gap: 24px;
   /* margin-left: auto;
   margin-right: auto; */
   gap: 24px;
-  padding-left: 0; margin: 0;
+  padding-left: 0;
+  margin: 0;
 }
 .section-obout {
   width: 1440px;
 }
 .section-list-obout {
-  width: Calc((100% - 3*24px) / 4);
-  
+  width: Calc((100% - 3 * 24px) / 4);
 }
 .obout-us {
   font-weight: 500;
@@ -266,14 +265,17 @@ margin-bottom: 8px;
   color: #434455;
 }
 /* Секция 3 Наша команда*/
-.container-head{
- padding-top: 32px;
- padding-bottom: 32px;
+.container-head {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.command-list-item{
+.command-list-item {
+  display: block;
   width: calc((100% - 72px) / 4);
   background-color: #ffffff;
-  border-radius: 0px 0px 4px 4px;;
+  border-radius: 0px 0px 4px 4px;
+  padding-left: 0;
+  margin: 0;
 }
 .image-our-tem {
   display: block;
@@ -296,7 +298,6 @@ margin-bottom: 8px;
 .section-header-our-team-list {
   display: flex;
   gap: 24px;
-
   margin-left: auto;
   margin-right: auto;
 }
@@ -318,7 +319,6 @@ margin-bottom: 8px;
   margin-right: auto;
   padding: 32px 0 32px;
   border-radius: 0px 0px 4px 4px;
-  
 }
 .command-list-p {
   font-weight: 400;
