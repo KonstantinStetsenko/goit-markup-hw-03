@@ -8,6 +8,7 @@ ul,
 p {
   margin: 0;
   list-style-type: none;
+  padding: 0;
 }
 *,
 *::before,
@@ -81,6 +82,7 @@ body {
   align-items: center;
 }
 .menu-li {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -148,9 +150,6 @@ body {
 }
 
 .section {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1440px;
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -239,7 +238,7 @@ body {
   width: 1440px;
 }
 .section-list-obout {
-  width: Calc((100%-3 * 14px) / 4);
+  width: calc((100% - 3 * 14px) / 4);
   gap: 24px;
 }
 .obout-us {
@@ -271,7 +270,6 @@ body {
 }
 
 .section-our-team {
-  width: 1440px;
   background-color: #f4f4fd;
 }
 
@@ -362,7 +360,6 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .our-portfolio-h {
   font-weight: 500;
@@ -370,8 +367,6 @@ body {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
-  margin-left: 16px;
   margin-bottom: 8px;
 }
 .our-portfolio-p {
@@ -380,8 +375,6 @@ body {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-top: 8px;
-  margin-left: 16px;
 }
 /* Футер */
 .footer {
